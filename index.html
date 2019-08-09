@@ -26,6 +26,24 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <style>
+  #about {
+    padding-top: 20px;
+  }
+  .instructions { 
+    font-size: 1.3em;
+    line-height: 2em;
+  }
+  .emailthings {
+    
+    margin-left: 30px;
+  }
+
+  .header-scrolled .logo a {
+    color: #413e66;
+  }
+  
+  </style>
 </head>
 
 <body>
@@ -56,9 +74,9 @@
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="https://www.facebook.com/HybridTradingSystem/" target="_blank">Facebook</a></li>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -73,12 +91,12 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
-            </ul>
+            </ul> -->
           </li>
-          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="#joinus">Join Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
-      
+
     </div>
   </header><!-- #header -->
 
@@ -103,14 +121,17 @@
 
     <!-- About Us Section -->
     <section id="about">
-
       <div class="container">
         <div class="row">
 
           <div class="col-lg-5 col-md-6">
-            <!-- <div class="about-img">
-              <img src="img/about-img.jpg" alt="">
-            </div> -->
+              <div class="about-content">
+                
+                <div class="row"><img src="./img/F1.png" alt="" style="margin: 0 auto; size: 90%;"></div>
+                <div class="row"><img src="./img/F2.png" alt="" style="margin: 0 auto; size: 90%;"></div>
+                <div class="row"><img src="./img/F3.png" alt="" style="margin: 0 auto; size: 90%;"></div>
+                
+              </div>
           </div>
 
           <div class="col-lg-7 col-md-6">
@@ -202,10 +223,10 @@
     <section id="pricing" class="wow fadeInUp section-bg">
 
       <div class="container">
-
         <header class="section-header">
           <h3>Pricing</h3>
-          <p>We do not charge you based on TIME but on RESULTS. Feel free to check our guaranteed pips subscription plans.</p>
+          <p style="padding-bottom: 10px;">We do not charge you based on TIME but on RESULTS. Feel free to check our guaranteed pips subscription plans.</p>
+          <p style="color: #FF3C38; font-size: 2em;"> Our current special plan is the only available for the first 50 person to sign in.</p>
         </header>
 
         <div class="row flex-items-xs-middle flex-items-xs-center">
@@ -214,21 +235,26 @@
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>150<span class="period">/350pips</span></h3>
+                <h3 style="color: #FF3C38"><span class="currency">$</span>99<span class="period" style="color: #FF3C38">/400pips</span></h3>
               </div>
               <div class="card-block">
-                <h4 class="card-title"> 
-                  Basic Plan
+                <h4 class="card-title" style="color: #FF3C38"> 
+                  Special Plan
                 </h4>
                 <ul class="list-group">
                   <li class="list-group-item">Trading Signals</li>
                   <li class="list-group-item">Chart Analysis</li>
-                  <li class="list-group-item"><strike>Paid courses</strike></li>
-                  <li class="list-group-item"><strike>Capital/Risk Management</strike></li>
-                  <li class="list-group-item"><strike>Live Chat Support System</strike></li>
+                  <li class="list-group-item">Paid courses</li>
+                  <li class="list-group-item">Capital/Risk Management</li>
+                  <li class="list-group-item">Live Chat Support System</li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
+               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="QN7SUMVX3NS2Q">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
             </div>
           </div>
       
@@ -236,21 +262,24 @@
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>319<span class="period">/900pips</span></h3>
+                <strike><h3><span class="currency">$</span>319<span class="period">/900pips</span></h3></strike>
               </div>
               <div class="card-block">
                 <h4 class="card-title"> 
-                  Regular Plan
+                  <strike>Regular Plan</strike>
                 </h4>
                 <ul class="list-group">
-                    <li class="list-group-item">Trading Signals</li>
-                    <li class="list-group-item">Chart Analysis</li>
-                    <li class="list-group-item">Paid courses</li>
+                    <li class="list-group-item"><strike>Trading Signals</strike></li>
+                    <li class="list-group-item"><strike>Chart Analysis</strike></li>
+                    <li class="list-group-item"><strike>Paid courses</strike></li>
                     <li class="list-group-item"><strike>Capital/Risk Management</strike></li>
                     <li class="list-group-item"><strike>Live Chat Support System</strike></li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
+                <form>
+                  <img type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+                </form>         
+             </div>
             </div>
           </div>
       
@@ -258,29 +287,52 @@
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>649<span class="period">/1500pips</span></h3>
+                <strike><h3><span class="currency">$</span>649<span class="period">/1500pips</span></h3></strike>
               </div>
               <div class="card-block">
                 <h4 class="card-title"> 
-                  Premium Plan
+                  <strike>Premium Plan</strike>
                 </h4>
                 <ul class="list-group">
-                    <li class="list-group-item">Trading Signals</li>
-                    <li class="list-group-item">Chart Analysis</li>
-                    <li class="list-group-item">Paid courses</li>
-                    <li class="list-group-item">Capital/Risk Management</li>
-                    <li class="list-group-item">Live Chat Support System</li>
-                </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
+                  <li class="list-group-item"><strike>Trading Signals</strike></li>
+                  <li class="list-group-item"><strike>Chart Analysis</strike></li>
+                  <li class="list-group-item"><strike>Paid courses</strike></li>
+                  <li class="list-group-item"><strike>Capital/Risk Management</strike></li>
+                  <li class="list-group-item"><strike>Live Chat Support System</strike></li>
+              </ul>
+              <form>
+                <img type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
             </div>
           </div>
       
+        </div>          
+      </div>
+</section><!-- #pricing -->
+    <!-- How to join Us Section -->
+  <section id="joinus">
+      <div class="container">
+        <div class="row">  
+          <div class="col-lg-12 col-md-12">
+            <div class="about-content">
+              <h2>Joining Instructions</h2>
+              <h3>In order to join our community you must do the following steps.</h3>
+              <div class="instructions">
+                1. Choose the appropriate plan for you above and make a payement. <br>
+                2. Contact us via <a href="mailto:contact.hybrid.system@gmail.com">contact.hybrid.system@gmail.com</a> providing the following: <br>
+                <span class="emailthings"><i class="ion-android-checkmark-circle"></i> Full name.</span> <br>
+                <span class="emailthings"></span><i class="ion-android-checkmark-circle"></i> Email.<br>
+                <span class="emailthings"><i class="ion-android-checkmark-circle"></i> Payement method used.</span> <br>
+                <span class="emailthings"><i class="ion-android-checkmark-circle"></i>  Date of payement.</span> <br>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-    </section><!-- #pricing -->
-
+    </section>
+  
     <!--==========================
       Frequently Asked Questions Section
     ============================-->
@@ -293,10 +345,10 @@
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1">What is the timeframe for each plan to reach the results ?<i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">What is the specific duration for each plan to reach the results ?<i class="ion-android-remove"></i></a>
             <div id="faq1" class="collapse" data-parent="#faq-list">
               <p>
-                There is no timeframe, as stated in the plans sections we work based pn results, sometimes the resutls are achieved in a day sometimes in a week.
+                There is no specific duration, as stated in the plans sections we work based pn results, sometimes the resutls are achieved in a day sometimes in a week.
               </p>
             </div>
           </li>
@@ -305,7 +357,7 @@
             <a data-toggle="collapse" href="#faq2" class="collapsed">Are the results guaranteed ? <i class="ion-android-remove"></i></a>
             <div id="faq2" class="collapse" data-parent="#faq-list">
               <p>
-                Yes, we garantuee those results. For not having a timeframe we take time to make the safest trades that we would make with out own capital.
+                Yes, we garantuee those results. For not having a specific duration we take time to make the safest trades that we would make with out own capital.
               </p>
             </div>
           </li>
@@ -336,11 +388,11 @@
 
   </main>
 
-  <!--==========================
+  <!-- ==========================
     Footer
   ============================-->
   <footer id="footer" class="section-bg">
-    <div class="footer-top">
+<!--     <div class="footer-top">
       <div class="container">
 
         <div class="row">
@@ -434,17 +486,13 @@
             </div>
 
           </div>
-
-          
-
         </div>
-
       </div>
     </div>
-
+ -->
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+        &copy; Copyright <strong>Hybrid Trading System</strong>.
       </div>
       <div class="credits">
         <!--
@@ -453,7 +501,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        All Rights Reserved.
       </div>
     </div>
   </footer><!-- #footer -->

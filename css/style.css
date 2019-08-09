@@ -509,7 +509,7 @@ h6 {
   font-size: 15px;
   padding-bottom: 60px;
   color: #535074;
-  width: 50%;
+  width: 80%;
 }
 
 /* Section with background
@@ -526,7 +526,29 @@ h6 {
   padding: 30px 0 80px 0;
 }
 
-#about .about-content {
+#joinus {
+  padding: 73px 0 30px 0;
+}
+#joinus {
+  margin-top: 40px;
+}
+#joinus .about-content {
+  padding-top: 40px;
+}
+
+#joinus .about-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#joinus .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+#joinus .about-content {
   padding-top: 40px;
 }
 
